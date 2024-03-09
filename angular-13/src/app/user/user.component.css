@@ -1,0 +1,16 @@
+
+
+
+footer{
+  height: 200px;
+  background: #09f;
+  padding: 20px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
