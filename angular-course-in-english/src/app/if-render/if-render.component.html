@@ -1,0 +1,23 @@
+
+
+  <div class="class">
+      @if (canShow) {
+        <div>
+          <span>
+            Estamos mostrado isto porque foi permitido
+          </span>
+        </div>
+      }
+      <br>
+      @if (name === 'Andrade') {
+        <h2>Name correct => {{name}}</h2>
+      }
+     <!--  @else{
+        nameNotFound
+      }
+      <ng-template #nameNotFound>
+        <div>
+          <p>Nome incorrecto</p>
+        </div>
+      </ng-template> -->
+  </div>
